@@ -42,5 +42,8 @@ struct ContentView: View {
 ```
 
 ## Что необходимо для использоввания:
-1.
+1. Скопировать код файла "CodingStyle"
+2. В вашем View добавить и проинициализироватть : @ObservedObject var model: Model = .init(mode: .snakeCase)
+3. В TexField в поле binding cсылки указать -> model.$value
+
             

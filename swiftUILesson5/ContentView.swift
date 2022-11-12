@@ -19,14 +19,14 @@ struct ContentView: View {
     @ObservedObject var model: Model = .init(mode: .snakeCase)
     var body: some View {
         VStack {
+            
             TextField(modeText, text: model.$value)
-                .frame(width: 100)
+                .frame(width: 300)
+                .frame(minHeight: 100)
                 .foregroundColor(.red)
                 .padding(.bottom, 20)
                 .textInputAutocapitalization(.never)
-            Text(model.value)
-                .padding(.bottom, 20)
-            
+
             Menu {
                 Button {
                     model.setMode(mode: .camelCase)
@@ -54,7 +54,7 @@ struct ContentView: View {
                     Text("kebab-case")
                 }
             } label: {
-                 Text("CaseStyle")
+                 Text(modeText)
             }
             .padding(10)
             .border(.gray,width: 1)

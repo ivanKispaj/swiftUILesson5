@@ -82,7 +82,7 @@ final class CodingStyle {
                 camelUp = false
                 return res
             } else {
-                if last == "_" || last == "-" {
+                if last == "_" || last == "-" || last == " "  {
                     camelUp = true
                 }
                 changeChar = true
@@ -130,7 +130,7 @@ final class CodingStyle {
                 if last.isUppercase {
                     result.append(contentsOf: "_")
                     result.append(contentsOf: last.lowercased())
-                } else if last == "-" {
+                } else if last == "-" || last == " " {
                     result.append(contentsOf: "_")
                 } else {
                     result.append(contentsOf: last.lowercased())
@@ -178,7 +178,7 @@ final class CodingStyle {
                 if last.isUppercase {
                     result.append(contentsOf: "-")
                     result.append(contentsOf: last.lowercased())
-                } else if last == "_" {
+                } else if last == "_" || last == " "  {
                     result.append(contentsOf: "-")
                 } else {
                     result.append(contentsOf: last.lowercased())

@@ -4,11 +4,11 @@
 
 Эта программа меняет формат ввода в зависимости от выбранного режима
 ### Menu выбора состоит 
--**camelCase**
+**camelCase**
 
--**snake_case**
+**snake_case**
 
--**kebab-case**
+**kebab-case**
 
 ### camelCase -> 
 Если вводится знак `_` или `-` то при вводе следующей буквы она станет заглавной а введенный знак убирается
@@ -44,7 +44,7 @@ struct ContentView: View {
 ```
 
 ## Что необходимо для использоввания:
-1. Скопировать код файла "CodingStyle"
+1. Скопировать код файла "CodingStyle" в свой проект.
 2. В вашем View добавить и проинициализироватть : @ObservedObject var model: Model = .init(mode: .snakeCase)
 3. В TexField в поле binding cсылки указать -> model.$value
 

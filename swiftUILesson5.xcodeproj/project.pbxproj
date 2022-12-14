@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		633730E6291F8F5A00C6074A /* CodingStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633730E5291F8F5A00C6074A /* CodingStyle.swift */; };
 		63FDC73C291E91D300536E9A /* swiftUILesson5App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDC73B291E91D300536E9A /* swiftUILesson5App.swift */; };
 		63FDC73E291E91D300536E9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FDC73D291E91D300536E9A /* ContentView.swift */; };
 		63FDC740291E91D500536E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63FDC73F291E91D500536E9A /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		633730E5291F8F5A00C6074A /* CodingStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingStyle.swift; sourceTree = "<group>"; };
 		63FDC738291E91D300536E9A /* swiftUILesson5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftUILesson5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FDC73B291E91D300536E9A /* swiftUILesson5App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUILesson5App.swift; sourceTree = "<group>"; };
 		63FDC73D291E91D300536E9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				63FDC73B291E91D300536E9A /* swiftUILesson5App.swift */,
 				63FDC73D291E91D300536E9A /* ContentView.swift */,
+				633730E5291F8F5A00C6074A /* CodingStyle.swift */,
 				63FDC73F291E91D500536E9A /* Assets.xcassets */,
 				63FDC741291E91D500536E9A /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63FDC73E291E91D300536E9A /* ContentView.swift in Sources */,
+				633730E6291F8F5A00C6074A /* CodingStyle.swift in Sources */,
 				63FDC73C291E91D300536E9A /* swiftUILesson5App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
